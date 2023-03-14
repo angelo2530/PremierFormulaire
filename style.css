@@ -1,3 +1,30 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    font-family: cursive;
+}
+
+form{
+    background-image: linear-gradient(to top , #20bcff, #ffffff);
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 2px 2px rgb(58, 99, 105);
+}
+label , input{
+    width: 100%;
+}
+input[type="submit"]{
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 20px;
+    width: 40%;
+    padding: 5px 0;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
 }
